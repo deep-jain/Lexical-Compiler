@@ -1,6 +1,6 @@
 # Lexical-Compiler
 
-#### Lexical Compiler Used the following Backus-Naur Form(BNF) grammar:
+#### Lexical Compiler uses the following Backus-Naur Form(BNF) grammar:
 ```
 Prog := Slist
 Slist := Ssep { Slist } | Stmt Ssep { Slist }
